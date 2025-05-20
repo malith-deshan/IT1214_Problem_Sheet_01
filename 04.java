@@ -27,7 +27,7 @@ class ticket{
         this.ticketNumber=ticketNumber;
     }
 
-    public void setCustomerName(int customerName){
+    public void setCustomerName(String customerName){
         this.customerName=customerName;
     }
 
@@ -44,7 +44,16 @@ class BookingSystem{
         int ticketCout=0;
 
         do{
+            System.out.println("Movie Theater");
+            System.out.println("Available Seats");
+            for(int i=0; i<10; i++){
+                if(seatNumber[i]==0){
+                    System.out.println(seatNumber[i]+1);
+                }
+            }
+
             
         }
+        while (ticketCout=10);
     }
 }
