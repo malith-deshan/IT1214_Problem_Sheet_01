@@ -37,23 +37,3 @@ class ticket{
 
 }
 
-class BookingSystem{
-    public static void main (String[] args){
-        Scanner sc=new Scanner(System.in);
-        int[] seatNumber=new int[10];
-        int ticketCout=0;
-
-        do{
-            System.out.println("Movie Theater");
-            System.out.println("Available Seats");
-            for(int i=0; i<10; i++){
-                if(seatNumber[i]==0){
-                    System.out.println(seatNumber[i]+1);
-                }
-            }
-
-            
-        }
-        while (ticketCout=10);
-    }
-}
